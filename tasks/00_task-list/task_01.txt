@@ -1,0 +1,37 @@
+
+ //////////////////////////////
++----------------------------+/
+|                            |/
+|   Task_01  -  JavaScript   |/
+|                            |/
++----------------------------+
+
+* Write a function that accepts the head of a bi-directional linked list 
+** that contains numbers and a number, 
+** and insert the given number between every two nodes that it averages. 
+*** If there are not such node the list is unchanged.
+
+*** e.g. 
+
+* if the number is 10, 
+  it will be inserted here: 0 10 20 and here: 53 10 -33
+
+
+  ---[ example #1 ]----------------------------------
+  
+  [ 0, 20 ] ==> [ 0, 10, 20]
+
+  (0 + 20) / 2 
+  = 20 / 2 
+  = 10
+
+  
+  ---[ example #2 ]----------------------------------
+  
+  [ 53, -33 ] ==> [53, 10, -33]
+
+  (53 + (-33) ) / 2
+  = 20 / 2 
+  = 10
+
+  

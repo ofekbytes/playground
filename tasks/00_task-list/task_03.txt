@@ -1,0 +1,16 @@
+
+
+ //////////////////////////
++------------------------+/
+|                        |/
+|   Task_03  -  Design   |/
+|                        |/
++------------------------+
+
+
+Design a microservice based system (with discovery, gateway, etc.) 
+that manages all the real estates in Israel, 
+and should serve government clerks, citizens (buyers, sellers) and banks. 
+Please address data storage as well.
+
+  

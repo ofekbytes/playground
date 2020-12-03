@@ -1,0 +1,27 @@
+
+
+ ////////////////////////
++----------------------+/
+|                      |/
+|   Task_02  -  Java   |/
+|                      |/
++----------------------+
+
+
+* Assume you have a Node class, that represent a binary tree. 
+** Write a method that accepts two Nodes (=trees) and check if they are a mirror image of one another.
+
+*** e,g,
+
+example 1: is a mirror
+
+    1   and   1   are mirrors.
+   2 3       3 2
+
+
+example 2: is not mirrors
+
+    1   and   1   are not.
+   3 2       3 2
+
+  
