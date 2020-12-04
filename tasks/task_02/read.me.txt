@@ -1,3 +1,17 @@
-read.me.txt
 
----[ task-list\task_02.txt ]-----------
+
+--- [ read.me ]----
+
+
+
+Task #2
+
+
+* the task path: task-list\task_02.txt
+
+* import this project into your favorite editor.
+
+* this project was created within an eclipse editor.
+
+
+*** enjoy ***

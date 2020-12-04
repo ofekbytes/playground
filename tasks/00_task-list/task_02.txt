@@ -9,7 +9,8 @@
 
 
 * Assume you have a Node class, that represent a binary tree. 
-** Write a method that accepts two Nodes (=trees) and check if they are a mirror image of one another.
+** Write a method that accepts two Nodes (=trees) and 
+   check if they are a mirror image of one another.
 
 *** e,g,
 
