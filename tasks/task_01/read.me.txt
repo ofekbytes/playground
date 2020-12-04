@@ -1,3 +1,17 @@
-read.me.txt
 
----[ task-list\task_01.txt ]-----------
+
+--- [ read.me ]----
+
+
+
+Task #1
+
+
+* the task path: task-list\task_01.txt
+
+* this project was created within "Visual Studio" editor.
+
+
+*** enjoy ***
+
+
