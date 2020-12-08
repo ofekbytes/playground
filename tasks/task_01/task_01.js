@@ -76,8 +76,6 @@ function taskLinkedList() {
     };
 
 
-
-
     /**
      * Node - element At
      **/
@@ -89,30 +87,30 @@ function taskLinkedList() {
             currentNode = currentNode.next
         }
         return currentNode.element;
-      };
-    
-
+      }; 
 
 }
-
 
 
 
 var task = new taskLinkedList();
 
+
 task.add(10);
 task.add(20);
 task.add(30);
 
-console.log('print all linked list element');
+
+console.log(`print all linked list element `);
 let sum = 0;
 for(let a = 0; a < task.size(); a++)
 {
-    console.log(`node ${a} ==> ${task.elementAt(a)}`);
+    console.log(`node [${a}] ==> [ ${task.elementAt(a)} ]`);
     sum += task.elementAt(a);
 }
 
-console.log('nodes average value are: ' + (sum / task.size() ) );
+console.log(`nodes average value : [ ${sum / task.size()} ] `);
+
 
 //
 // to be continue 
