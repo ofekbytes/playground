@@ -20,6 +20,7 @@ function taskLinkedList() {
     //-----------------------------------------------------------//    
     var length = 0;
     var head = null;
+    var output = "";
 
 
     //-----------------------------------------------------------//
@@ -75,6 +76,42 @@ function taskLinkedList() {
             console.log(`_[ ${index} ]_ ===> ${currentNode.element}`); //print the last element.
         }
 
+        return tc;
+    };
+
+
+    //-----------------------------------------------------------//
+    //   printLinkedList() - print all element in LinkedList
+    //-----------------------------------------------------------//
+    this.browserOutput = function (numbers, number) {
+
+        var currentNode = head;
+        var tc = 1;
+        var index = 0;
+
+        output += `<h1> user enter a data </h1>`
+        output += `<h2>Numbers </h2> <hr>`;
+        output += `<h2>${numbers}</h2>`; 
+        // output += `</br>nSearch number ==> ${number} </br>`;
+        // output += `
+
+        output += `<ul>`;
+        if (head === null) {
+            tc = (-1);
+            output += `<li>No Data.</li>`
+        }
+        else {
+
+            output += `<li>print all linked list element </li>`;
+            while (currentNode.next !== null) {
+                output += `<li> _[ ${index} ]_ ===> ${currentNode.element} </li> `;
+                currentNode = currentNode.next;
+                index++;
+            }
+            output += `<li> _[ ${index} ]_ ===> ${currentNode.element} </li>`; //print the last element.
+        }
+        output += `</ul>`;
+        document.getElementById("output").innerHTML = output;
         return tc;
     };
 
