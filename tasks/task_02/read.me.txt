@@ -7,11 +7,14 @@
 Task #2
 
 
-* the task path: task-list\task_02.txt
+* the task path: \playground\tasks\00_task-list\task_02.txt
 
 * import this project into your favorite editor.
+** java project: \playground\tasks\task_02\task2BT
+** java maven project: \playground\tasks\task_02\task02mbr
 
 * this project was created within "eclipse" editor.
 
 
 *** enjoy ***
+

@@ -7,7 +7,11 @@
 Task #1
 
 
-* the task path: task-list\task_01.txt
+* the task path: \playground\tasks\00_task-list\task_01.txt
+
+* run this project from your favorite tool
+** node.js :  \playground\tasks\task_01\task_01.01.js
+** internet browser: \playground\tasks\task_01\index.html
 
 * this project was created within "Visual Studio" editor.
 
